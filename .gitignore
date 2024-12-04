@@ -1,0 +1,4 @@
+cmake-build-debug
+objs
+.idea
+CMakeLists.txt
