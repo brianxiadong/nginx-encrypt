@@ -37,7 +37,6 @@ static ngx_conf_enum_t  ngx_debug_points[] = {
     { ngx_null_string, 0 }
 };
 
-
 static ngx_command_t  ngx_core_commands[] = {
 
     { ngx_string("daemon"),
@@ -195,6 +194,7 @@ static char **ngx_os_environ;
 int ngx_cdecl
 main(int argc, char *const *argv)
 {
+
     ngx_buf_t        *b;
     ngx_log_t        *log;
     ngx_uint_t        i;

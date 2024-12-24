@@ -1,0 +1,1 @@
+ ./configure --add-module=/home/parallels/Documents/code/nginx-1.22.1/rtmp --prefix="./"
